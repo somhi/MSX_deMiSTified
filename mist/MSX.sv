@@ -16,7 +16,7 @@
 //  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 //============================================================================
 
-module MSX
+module guest_top
 (
 	input         CLOCK_27,
 
@@ -152,7 +152,23 @@ pll pll
 	.locked(locked)
 );
 
-assign SDRAM_CLK = memclk;
+assign SDRAM_CLK = ~memclk;
+
+`ifdef I2S_AUDIO
+wire [31:0] clk_rate =  32'd28_375_168;
+i2s i2s (
+        .reset(1'b0),
+        .clk(clk_sys),
+        .clk_rate(clk_rate),
+
+        .sclk(I2S_BCK),
+        .lrclk(I2S_LRCK),
+        .sdata(I2S_DATA),
+
+        .left_chan  ({~DACIn[13],DACIn[12:0],2'b0}),
+        .right_chan ({~DACIn[13],DACIn[12:0],2'b0})
+);
+`endif
 
 //////////////////   MiST I/O   ///////////////////
 wire  [7:0] joy_0;
@@ -359,6 +375,7 @@ wire  [5:0] R_O;
 wire  [5:0] G_O;
 wire  [5:0] B_O;
 wire        HSync, VSync;
+wire [13:0] DACIn;
 
 emsx_top emsx
 (
@@ -410,6 +427,7 @@ emsx_top emsx
 
         .pDac_SL    (Dac_SL),
         .pDac_SR    (Dac_SR),
+		  .DACIn      (DACIn),
 
         .iRTC       (rtc),
         .oMidi      (midi_tx),

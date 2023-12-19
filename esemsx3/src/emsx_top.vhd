@@ -117,7 +117,8 @@ entity emsx_top is
         pDac_VB         : inout std_logic_vector(  5 downto 0);     -- RGB_Blu / CompositeVideo
         pDac_SL         : out   std_logic_vector(  5 downto 0 ) := "ZZZZZZ";    -- Sound-L
         pDac_SR         : inout std_logic_vector(  5 downto 0 ) := "ZZZZZZ";    -- Sound-R / CMT
-
+		  DACin           : buffer std_logic_vector(13 downto 0);
+		  
         pVideoHS_n      : out   std_logic;                          -- Csync(RGB15K), HSync(VGA31K)
         pVideoVS_n      : out   std_logic;                          -- Audio(RGB15K), VSync(VGA31K)
 
@@ -913,7 +914,7 @@ architecture RTL of emsx_top is
 
     -- Sound signals
     constant DAC_msbi       : integer := 13;
-    signal  DACin           : std_logic_vector(DAC_msbi downto 0);
+    --signal  DACin           : std_logic_vector(DAC_msbi downto 0);
     signal  DACout          : std_logic;
 
     signal  OpllVol         : std_logic_vector(  2 downto 0 ) := "100";

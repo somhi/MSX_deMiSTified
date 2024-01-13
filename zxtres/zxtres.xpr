@@ -6,7 +6,7 @@
 <Project Version="7" Minor="61" Path="/home/jordi/Documents/Coding/FPGA/Deca_17/_A_WIP/MSX_deMiSTified/zxtres/zxtres.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="0a220d84393c47179dc9ddcc95664948"/>
+    <Option Name="Id" Val="ed1fa5242a824562a5665430295c7b77"/>
     <Option Name="Part" Val="xc7a200tfbg484-2"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -190,535 +190,535 @@
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/AttackTable.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/vm2413.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/Controller.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/EnvelopeGenerator.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/EnvelopeMemory.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/FeedbackMemory.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T80_Pack.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/LinearTable.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/Operator.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/Opll.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/OutputGenerator.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/OutputMemory.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/PhaseGenerator.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/PhaseMemory.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/RegisterMemory.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/SineTable.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/SlotCounter.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T80.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T80_ALU.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T80_MCode.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T80_Reg.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T80a.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/TemporalMixer.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/VoiceMemory.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/vm2413/VoiceRom.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../demistify_config_pkg.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../firmware/controller_rom1_word.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../firmware/controller_rom2_word.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/firmware/controller_rom.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/altera/debug_virtualjtag.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/debug_fifo.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/altera/debug_bridge_jtag.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_aligner_le.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_pkg.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_shifter.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_alu.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_fetchloadstore.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_decode.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_hazard.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_debug.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/EightThirtyTwo/RTL/eightthirtytwo_cpu.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_package.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/emsx_top.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/filter/esefir5.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/opll/eseopll.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/peripheral/eseps2.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/dac/esepwm.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/peripheral/fifo.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/controller/interrupt_controller.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/controller/io_ps2_com.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/controller/jtag_uart.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/peripheral/kanji.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/peripheral/keymap.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/lpf/lpf.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/peripheral/mapper.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/scc/megaram.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/peripheral/uart.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/peripheral/midi.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/psg/psg.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/psg/psg_wave.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/peripheral/ram.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../mist/rtc_mist.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/scc/scc_wave.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/controller/simple_uart.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/controller/spi_controller.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/controller/substitute_mcu.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/peripheral/swioports.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/peripheral/systemtimer.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/sound/filter/tapram.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_colordec.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_command.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_doublebuf.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_graphic123m.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_graphic4567.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_hvcounter.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_interrupt.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_linebuf.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_ntsc_pal.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_register.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_spinforam.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_sprite.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_ssg.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_text12.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_vga.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vdp_wait_control.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/video/vencode.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../esemsx3/src/peripheral/wifi.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -731,56 +731,56 @@
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/GBse.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T80pa.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T80s.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T80se.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T80as.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T80sed.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../T80/T8080se.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../mist/mist-modules/mist.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -875,7 +875,7 @@
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../mist/mist-modules/dac.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -890,7 +890,7 @@
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../DeMiSTify/controller/timer_controller.vhd">
-        <FileInfo SFType="VHDL2008">
+        <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>

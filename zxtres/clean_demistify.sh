@@ -1,6 +1,6 @@
 #demistify
 #find ../firmware/ -type f \( ! -iname "config.h" ! -iname "*.c" \) -delete
-rm -f Oric_*
+rm -f msx_*
 rm *_zxtres_files.tcl
 rm generate_vivado_project.tcl
 rm build.v

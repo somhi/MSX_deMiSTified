@@ -6,4 +6,4 @@
 	url = https://github.com/mist-devel/T80.git
 [submodule "DeMiSTify"]
 	path = DeMiSTify
-	url = git@github.com:rampa069/DeMiSTify.git
+	url = https://github.com/somhi/DeMiSTify

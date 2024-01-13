@@ -21,11 +21,11 @@ module guest_top
 	input         CLOCK_27,
 
 	output        LED,
-	output [VGA_BITS-1:0] VGA_R,
-	output [VGA_BITS-1:0] VGA_G,
-	output [VGA_BITS-1:0] VGA_B,
-	output        VGA_HS,
-	output        VGA_VS,
+	output reg [VGA_BITS-1:0] VGA_R,
+	output reg [VGA_BITS-1:0] VGA_G,
+	output reg [VGA_BITS-1:0] VGA_B,
+	output reg    VGA_HS,
+	output reg    VGA_VS,
 
 	input         SPI_SCK,
 	inout         SPI_DO,
@@ -78,7 +78,7 @@ module guest_top
 `endif
 
 	input         UART_RX,
-	output        UART_TX
+	output reg    UART_TX
 );
 
 
@@ -280,8 +280,8 @@ sd_card sd_card
 
 wire [5:0] joya = status[7] ? ~joy_1[5:0] : ~joy_0[5:0];
 wire [5:0] joyb = status[7] ? ~joy_0[5:0] : ~joy_1[5:0];
-wire [5:0] msx_joya;
-wire [5:0] msx_joyb;
+reg [5:0] msx_joya;
+reg [5:0] msx_joyb;
 wire       msx_stra;
 wire       msx_strb;
 

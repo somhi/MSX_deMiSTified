@@ -1,9 +1,8 @@
-set vid_clk   "clk_out1_pll"
-set sdram_clk "clk_out2_pll"
-
+set vid_clk   "clk_out1_clk_wiz_0"
+set sdram_clk "clk_out2_clk_wiz_0"
 
 # Clock groups
-set_clock_groups -asynchronous -group [get_clocks spiclk] -group [get_clocks {clk_out1_pll clk_out2_pll clk_out3_pll} ]
+set_clock_groups -asynchronous -group [get_clocks spiclk] -group [get_clocks {clk_out1_clk_wiz_0 clk_out2_clk_wiz_0} ]
 
 # Some relaxed constrain to the VGA pins. The signals should arrive together, the delay is not really important.
 set_output_delay -clock [get_clocks $vid_clk] -max 0 [get_ports {VGA_*}]

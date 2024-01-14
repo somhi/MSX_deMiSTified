@@ -11,3 +11,5 @@ greybox_tmp/
 *.log
 *.asm
 *.o
+controller.bin
+controller.map

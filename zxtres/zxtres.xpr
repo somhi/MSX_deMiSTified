@@ -6,7 +6,7 @@
 <Project Version="7" Minor="61" Path="/home/jordi/Documents/Coding/FPGA/Deca_17/_A_WIP/MSX_deMiSTified/zxtres/zxtres.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="ed1fa5242a824562a5665430295c7b77"/>
+    <Option Name="Id" Val="3b574bb1cd274ca786b77a1b4b2df2b7"/>
     <Option Name="Part" Val="xc7a200tfbg484-2"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -906,6 +906,18 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
+      <File Path="$PPRDIR/../DeMiSTify/Board/zxtres/constraints.sdc">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/msx_mist.sdc">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
       <File Path="$PPRDIR/zxtres.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>

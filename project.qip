@@ -5,4 +5,4 @@ set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) T80/T80.qip
 set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) "mist/mist-modules/mist.qip"]
 set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "mist/mist-modules/sd_card.v"]
 set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) esemsx3/emsx.qip]
-set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) mist/msx_mist.sdc]
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) msx_mist.sdc]

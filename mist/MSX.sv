@@ -180,8 +180,8 @@ wire        no_csync;
 wire        scandoubler_disable;
 
 reg  [31:0] sd_lba;
-wire        sd_rd = 0;
-wire        sd_wr = 0;
+wire        sd_rd;
+wire        sd_wr;
 wire        sd_conf;
 wire        sd_ack;
 wire        sd_ack_conf;

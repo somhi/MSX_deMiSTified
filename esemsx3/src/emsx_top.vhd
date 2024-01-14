@@ -609,7 +609,7 @@ architecture RTL of emsx_top is
             vga_scanlines   : inout std_logic_vector(  1 downto 0 );            -- VGA Scanlines 0%, 25%, 50% or 75% (default is 0%)
             btn_scan        : in    std_logic;                                  -- Scanlines button
             Mapper0_req     : inout std_logic;                                  -- Extra-Mapper req         :   Warm Reset is required to complete the request
-            Mapper0_ack     : out   std_logic;                                  -- Current Extra-Mapper state
+            Mapper0_ack     : inout std_logic;                                  -- Current Extra-Mapper state
             iPsg2_ena       : inout std_logic;                                  -- Internal PSG2 enabler
             -- 'VARIABLES' group
             SdrSize         : in    std_logic_vector(  1 downto 0 );
@@ -2186,7 +2186,7 @@ begin
     end process;
 
     -- left audio channel
-    pDac_SL <= null                                         when( power_on_reset = '0' )else
+     pDac_SL <= (others => '0')                               when( power_on_reset = '0' )else
                "ZZZZZZ"                                     when( pseudoStereo = '1' and (CmtScro = '0' or portF4_mode = '1') )else
                DACout & "ZZZZ" & DACout;                    -- multiple DACout lines are used to balance the audio cartridges on Cyclone I machines
 
@@ -2662,7 +2662,7 @@ begin
 
 --    U07 : rtc
 --        port map(clk21m, reset, w_10Hz, RtcReq, open, wrt, adr, RtcDbi, dbo);
-    U07 : work.rtc_mist
+    U07 : entity work.rtc_mist
         port map(clk21m, reset, iRTC, RtcReq, open, wrt, adr, RtcDbi, dbo);
 
     U08 : kanji
@@ -2852,7 +2852,7 @@ begin
 
      tr_pcm_wave_in <= (others => '0');
 
-    uwifi : work.wifi
+    uwifi : entity work.wifi
         port map(
             clk_i           => clk21m,
             wait_o          => esp_wait_s,
@@ -2870,7 +2870,7 @@ begin
     esp_tx_i <= pUsbP1;
     pUsbN1 <= esp_rx_o;
 
-    umidi : work.midi
+    umidi : entity work.midi
         port map(
             clk_i           => clk21m,
             reset_i         => (not reset),

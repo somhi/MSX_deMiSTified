@@ -18,8 +18,12 @@
 
 module guest_top
 (
-	input         CLOCK_27,
 
+`ifdef USE_CLOCK_50
+	input         CLOCK_50,
+`else
+	input         CLOCK_27,
+`endif	
 	output        LED,
 	output reg [VGA_BITS-1:0] VGA_R,
 	output reg [VGA_BITS-1:0] VGA_G,
@@ -146,7 +150,12 @@ wire memclk;
 
 pll pll
 (
+
+`ifdef USE_CLOCK_50
+	.inclk0(CLOCK_50),
+`else
 	.inclk0(CLOCK_27),
+`endif	
 	.c0(clk_sys),
 	.c1(memclk),
 	.locked(locked)
@@ -180,8 +189,10 @@ wire        no_csync;
 wire        scandoubler_disable;
 
 reg  [31:0] sd_lba;
-reg         sd_rd = 0;
-reg         sd_wr = 0;
+//reg         sd_rd = 0;
+//reg         sd_wr = 0;
+wire        sd_rd;
+wire        sd_wr;
 wire        sd_conf;
 wire        sd_ack;
 wire        sd_ack_conf;

@@ -25,10 +25,10 @@ proc generateBuildID_Verilog {} {
 	puts $outputFile "`define BUILD_TIME \"$buildTime\""
 	close $outputFile
 
-	# Send confirmation message to the Messages window
-	post_message "Generated build identification Verilog module: [pwd]/$outputFileName"
-	post_message "Date:             $buildDate"
-	post_message "Time:             $buildTime"
+	## Send confirmation message to the Messages window
+	#post_message "Generated build identification Verilog module: [pwd]/$outputFileName"
+	#post_message "Date:             $buildDate"
+	#post_message "Time:             $buildTime"
 }
 
 # Comment out this line to prevent the process from automatically executing when the file is sourced:

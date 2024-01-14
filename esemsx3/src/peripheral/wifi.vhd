@@ -157,7 +157,7 @@ signal  prescaler_i_s       : std_logic_vector(13 downto 0) := std_logic_vector(
 
 begin
 
-    U1 : work.UART
+    U1 : entity work.UART
     port map
     (
         uart_prescaler_i    => prescaler_i_s,
@@ -171,7 +171,7 @@ begin
         clock_i             => clk_i
     );
 
-    U2 : work.FIFO
+    U2 : entity work.FIFO
     generic map
     (
         FIFO_DEPTH          => 2080
